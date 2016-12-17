@@ -1,0 +1,87 @@
+/* -------------------------------------------------------
+
+	Description: Ferret
+
+------------------------------------------------------- */
+
+
+
+body {
+	font-family: 'Yrsa', serif;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 900px;
+}
+
+
+
+
+/* ---- Header ---- */
+
+header {
+	width: 88.89%;
+	margin: 0 auto;
+}
+
+
+
+
+div {
+  	background-color: fff;
+  	width: 100%;
+  	padding: 0;
+   	border: 0;
+    margin: 0;
+}
+
+a {
+    color: #0e77ac;
+    text-decoration: underline;
+    cursor: default;
+}
+
+a:link {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #717171;
+    text-decoration: none;
+}
+
+
+
+strong {
+	font-weight: bold;
+}
+
+article {
+  margin: 6em auto 24em auto;
+  max-width: 720px;
+}
+p {
+	font-family: 'Yrsa', serif;
+	color: #3d3d3d;
+	font-size: 1.26em;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+  font-weight: bold;
+	line-height: 1.28em;
+  margin: 0 0 1em 0;
+}
+
+.thumb img {
+	display:none;
+}
+
+img { outline: 0; max-width: 100%; height: auto; width: auto; }
+
+.popover {
+    display: none;
+    position: fixed;
+    pointer-events: none;
+}
+.popover img {
+  max-height: 400px;
+  max-width: 600px;
+}
