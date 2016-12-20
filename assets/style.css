@@ -55,9 +55,18 @@ strong {
 	font-weight: bold;
 }
 
-article {
-  margin: 6em auto 24em auto;
+.meta, article {
   max-width: 720px;
+}
+
+.meta {
+  list-style-type: none;
+  padding: 0;
+  margin: 2em auto;
+}
+
+article {
+  margin: 3em auto 24em auto;
 }
 p {
 	font-family: 'Yrsa', serif;
